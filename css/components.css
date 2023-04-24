@@ -49,3 +49,29 @@
     padding: 1vh 0vh; 
     width: 50vh;
 }
+
+.navbar{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin: 0 10vh;
+    align-items: center;
+}
+
+.aNavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 18vh;
+}
+
+.aNavbar a{
+    color: black;
+}
+
+.active{
+    padding: 1vh;
+    border-bottom: 1px solid black;
+}
