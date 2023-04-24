@@ -44,3 +44,8 @@
     font-size: 5vh;
     margin-bottom: 3vh;
 }
+
+.inputForm{
+    padding: 1vh 0vh; 
+    width: 50vh;
+}

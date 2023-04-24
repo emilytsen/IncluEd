@@ -1,0 +1,12 @@
+.formCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    height: 100vh;
+    justify-content: center;
+}
+
+.formCadastro input{
+    text-align: center;
+}
