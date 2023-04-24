@@ -30,9 +30,12 @@
     border: 1px var(--main-color) solid;
 }
 
-.logo{
+.logoLogin{
     width: 7%;
     margin-bottom: 2vh;
+}
+.logoNavbar{
+    width: 5%;
 }
 
 .fontTitle{

@@ -1,0 +1,48 @@
+.homeNavbar{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin: 0 10vh;
+    align-items: center;
+}
+
+
+.aNavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 18vh;
+}
+
+.aNavbar a{
+    color: black;
+}
+
+.aNavbar .a1{
+    text-decoration: underline;
+}
+
+.homeText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 50vh;
+    width: 60%;
+    gap: 3vh;
+    margin: 5% 5%;
+    justify-content: center;
+}
+
+.homeText h1{
+    font-family: 'Raleway', sans-serif;
+    color: var(--neutral-100);
+    font-size: 7vh;
+    margin-bottom: 3vh;
+}
+
+.homeText span{
+    font-family: 'Arapey', serif;
+    font-size: 5vh;
+}
