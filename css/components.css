@@ -75,6 +75,30 @@
 }
 
 .active{
-    padding: 1vh;
+    padding: 0.5vh;
     border-bottom: 1px solid black;
+    width: 41%;
+    align-self: center;
+}
+
+.inactive{
+    padding: 0.5vh;
+    border-bottom: 1px solid transparent;
+    width: 41%;
+    align-self: center;
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: var(--second-color);
+    padding: 6vh 10vh;
+}
+
+footer a{
+    color: var(--white-color);
+}
+
+body{
+    background-color: var(--white-color);
 }
