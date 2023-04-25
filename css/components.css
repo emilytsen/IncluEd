@@ -46,8 +46,11 @@
 }
 
 .inputForm{
-    padding: 1vh 0vh; 
+    padding: 1vh 1vh; 
     width: 50vh;
+    border-radius: 6px;
+    color: var(--neutral-200);
+    border: 1px solid var(--neutral-400);
 }
 
 .navbar{

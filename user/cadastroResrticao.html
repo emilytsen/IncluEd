@@ -18,10 +18,32 @@
     </div>
 
     <div class="formCadastroRestricao">
-        <input class="inputForm" type="text" placeholder="série">
-        <input class="inputForm" type="text" placeholder="aluno">
-        <input class="inputForm" type="text" placeholder="restrição">
-        <input class="inputAtestado" type="image">
+        <div class="dadosAluno">
+            <select class="inputForm" id="serie" name="série" >
+                <option value="opcao1"> série </option>
+                <option value="opcao2"> 1° ano </option>
+                <option value="opcao3"> 2° ano </option>
+                <option value="opcao3"> 3° ano </option>
+            </select>
+              
+            <select class="inputForm" id="aula" name="aula" >
+                <option value="opcao1"> aula afetada </option>
+                <option value="opcao2"> arte </option>
+                <option value="opcao2"> biología </option>
+                <option value="opcao3"> educação física </option>
+                <option value="opcao3"> matemática </option>
+                <option value="opcao3"> português </option>
+                <option value="opcao3"> química </option>
+                <option value="opcao3"> outro </option>
+
+            </select>
+              
+            <input class="inputForm inputFormAluno" type="text" placeholder="aluno">
+        </div>
+        <div class="dadosRestricao"> 
+            <textarea class="inputRestricao" id="caixa-de-texto" rows="8" cols="50" placeholder="descrição da restrição"></textarea>
+            <input class="inputAtestado" type="file">
+        </div>
         <a class="a a-main" href="../index.html">Cadastrar</a>
     </div>
 

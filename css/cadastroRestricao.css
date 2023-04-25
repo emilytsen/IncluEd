@@ -1,0 +1,43 @@
+.formCadastroRestricao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 70vh;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 25%;
+}
+
+.formCadastroRestricao .dadosAluno{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.formCadastroRestricao .dadosRestricao{
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+    width: 100%;
+}
+
+.formCadastroRestricao .dadosRestricao .inputRestricao{
+    padding: 1vh 1vh; 
+    width: 50vh;
+    border-radius: 6px;
+    color: var(--neutral-200);
+    border: 1px solid var(--neutral-400);
+}
+
+.formCadastroRestricao .dadosRestricao .inputAtestado{
+    width: 50vh;
+    border-radius: 6px;
+    color: var(--neutral-200);
+    border: 1px solid var(--neutral-400);
+    padding: 9vh 3vh;
+}
+
+
