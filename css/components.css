@@ -30,12 +30,33 @@
     border: 1px var(--main-color) solid;
 }
 
+.a-fifth{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    display: inline-block;
+    line-height: 9vh;
+    width: 155vh;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    margin-bottom: 2vh; 
+}
+
+.dashboardBtn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .logoLogin{
-    width: 7%;
+    width: 7vh;
     margin-bottom: 2vh;
 }
 .logoNavbar{
-    width: 12%;
+    width: 15%;
 }
 
 .fontTitle{
@@ -43,6 +64,12 @@
     color: var(--neutral-100);
     font-size: 5vh;
     margin-bottom: 3vh;
+}
+
+.dashboardTittle{
+    margin-left: 5%;
+    margin-bottom: 2%;
+
 }
 
 .inputForm{
@@ -93,6 +120,9 @@ footer{
     height: 30vh;
     background-color: var(--second-color);
     padding: 6vh 10vh;
+    display: flex;
+    flex-direction: column;
+
 }
 
 footer a{
@@ -102,3 +132,4 @@ footer a{
 body{
     background-color: var(--white-color);
 }
+
