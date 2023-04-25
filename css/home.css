@@ -1,29 +1,3 @@
-.homeNavbar{
-    height: 15vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    margin: 0 10vh;
-    align-items: center;
-}
-
-
-.aNavbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 18vh;
-}
-
-.aNavbar a{
-    color: black;
-}
-
-.aNavbar .a1{
-    text-decoration: underline;
-}
-
 .homeText{
     display: flex;
     flex-direction: column;
