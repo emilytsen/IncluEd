@@ -12,11 +12,11 @@
 .homeText h1{
     font-family: 'Raleway', sans-serif;
     color: var(--neutral-100);
-    font-size: 7vh;
+    font-size: 230%;
     margin-bottom: 3vh;
 }
 
 .homeText span{
     font-family: 'Arapey', serif;
-    font-size: 5vh;
+    font-size: 150%;
 }

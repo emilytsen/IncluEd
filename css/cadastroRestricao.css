@@ -17,27 +17,64 @@
     gap: 15px;
 }
 
+.dadosAluno select{ 
+    border-radius: 10px;
+    color: var(--neutral-400);
+    outline: none;
+}
+
+.dadosAluno input{ 
+    border-radius: 10px;
+    color: var(--neutral-400);
+    outline: none;
+}
+
 .formCadastroRestricao .dadosRestricao{
     display: flex;
     flex-direction: row;
     gap: 7%;
-    width: 100%;
+    width: 110%;
 }
 
 .formCadastroRestricao .dadosRestricao .inputRestricao{
-    padding: 1vh 1vh; 
+    padding: 2vh 1vh; 
     width: 50vh;
-    border-radius: 6px;
+    border-radius: 10px;
     color: var(--neutral-200);
     border: 1px solid var(--neutral-400);
+    outline: none;
 }
 
-.formCadastroRestricao .dadosRestricao .inputAtestado{
-    width: 50vh;
-    border-radius: 6px;
-    color: var(--neutral-200);
+.atestado{
     border: 1px solid var(--neutral-400);
-    padding: 9vh 3vh;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neutral-600);
 }
 
+.atestado input{
+    display: none;
+}
+
+.atestado img{
+    width: 20%;
+}
+
+.atestado p{
+    color: var(--neutral-400);
+    font-size: 0.8em;
+    margin-top: 3px;
+}
+
+.formCadastroRestricao a{
+    margin-left: 55%;
+    margin-top: 15px;
+    
+}
 
