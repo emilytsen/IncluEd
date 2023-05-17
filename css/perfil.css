@@ -1,0 +1,51 @@
+.perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.userIcon{
+    margin-left: 85px;
+    margin-top: 40px;
+}
+
+.perfilText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+    margin-top: 30px;
+
+}
+.bottonEditar{
+    display: inline-block;
+    line-height: 6vh;
+    width: 21vh;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    background-color: var(--neutral-500);
+    color: var(--main-color);
+    border-color: (--main-color);
+    border-style: double;
+
+}
+.bottonVoltarPerfil{
+    display: inline-block;
+    line-height: 6vh;
+    width: 21vh;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    background-color: var(--main-color);
+    color: var(--white-color); 
+    margin-left: 20px;
+
+}
+.bottonsPerfil{
+    margin-top: 30%;
+    margin-left: 65%;
+}

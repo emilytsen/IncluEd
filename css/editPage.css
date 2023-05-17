@@ -1,0 +1,39 @@
+.editPerfil{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.boxEdit{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    gap: 1vh;
+    
+}
+.bottonSalvarEdit{
+    display: inline-block;
+    line-height: 6vh;
+    width: 21vh;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    background-color: var(--second-color);
+    color: var(--white-color);  
+    border-style: double;
+
+}
+.bottonCancelarEdit{
+    display: inline-block;
+    line-height: 6vh;
+    width: 21vh;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    background-color: var(--third-color);
+    color: var(--white-color); 
+    margin-left: 115vh;
+    margin-top: 30vh;
+
+}
