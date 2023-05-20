@@ -1,15 +1,39 @@
 .editPerfil{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: flex-start;
 }
+
 .boxEdit{
     display: flex;
     flex-direction: column;
     margin-left: 200px;
     gap: 1vh;
-    
+    height: 30vh;
 }
+
+.boxEdit .boxInput{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: 1px solid var(--neutral-400);
+    width: 30%;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.boxEdit .boxInput input{
+    border: none;
+    background-color: transparent;
+}
+
+.boxEdit .boxInput img{
+    width: 20px;
+}
+
 .bottonSalvarEdit{
     display: inline-block;
     line-height: 6vh;
