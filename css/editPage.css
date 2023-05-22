@@ -34,7 +34,7 @@
     width: 20px;
 }
 
-.bottonSalvarEdit{
+.buttonSalvarEdit{
     display: inline-block;
     line-height: 6vh;
     width: 21vh;
@@ -47,7 +47,7 @@
     border-style: double;
 
 }
-.bottonCancelarEdit{
+.buttonCancelarEdit{
     display: inline-block;
     line-height: 6vh;
     width: 21vh;

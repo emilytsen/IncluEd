@@ -4,39 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Professor</title>
+    <title>Cadastro turma</title>
     <link rel="icon" href="../logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body> 
-
-        <div class="navbar">
-            <img class="logoNavbar" src="../img/logoNav.svg" alt="">    
-            <div class="aNavbar">
-                <a class="inactive" href="./pagInicialProfessor.html">home</a>
-                <a class="active" href="./perfilProfessor.html">perfil</a>
-            </div>
+    <div class="navbar">
+        <img class="logoNavbar" src="../img/logoNav.svg" alt="">    
+        <div class="aNavbar">
+            <a class="inactive" href="./pagInicialProfessor.html">home</a>
+            <a class="active" href="./perfilProfessor.html">perfil</a>
         </div>
-        <div class="perfil">
-            <div>
-                <img class="userIcon" src="../img/userIcon.svg" alt="">
+    </div>  
+    <div class="boxCad">
+            <div class="boxSelect">
+                <select>
+                    <option value="opcao1">série</option>
+                    <option value="opcao1">1°série</option>
+                    <option value="opcao2">2°série</option>
+                    <option value="opcao3">3°série</option>
+                </select> 
             </div>
-            <div class="perfilText">
-                <p>Nome:  Administrador</p>
-                <p>cpf:  123456789</p>
-                <p>email:  email.email@gmail.com</p>           
-            </div>
+            <div class="boxInput">
+                <input class="inputForm" type="text" placeholder="CPF">
+            </div>             
         </div>
-        <div class="bottonsPerfil">
-            <a class="bottonEditar" href="./editPage.html">Editar</a>
-            <a class="a bottonVoltarPerfil" href="./pagInicialProfessor.html">Voltar</a>
-        </div>
-
-        
-
-        
-
-
-    
+    </div>    
+    <div class="buttonsCad">
+        <a class="buttonCancelarCad" href="./turmas.html">Cancelar</a>
+        <a class="buttonCadastrarCad" href="./turmas.html">Cadastrar nova turma</a>
+    </div>    
 </body>
 </html>
