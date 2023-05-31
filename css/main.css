@@ -5,14 +5,14 @@
 @import "variables.css";
 @import "login.css";
 @import "home.css";
-@import "cadastroUser.css";
+@import "cadastro.css";
 @import "cadastroRestricao.css";
 @import "pagInicialProfessor.css";
 @import "perfil.css";
 @import "editPage.css";
 @import "cadTurma.css";
 @import "restAluno.css";
-
+@import "responsive.css";
 
 
 
