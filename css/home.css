@@ -1,22 +1,52 @@
-.homeText{
+.homeText {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 50vh;
+    height: 40vh;
     width: 60%;
     gap: 3vh;
     margin: 5% 5%;
     justify-content: center;
 }
 
-.homeText h1{
+.homeText h1 {
     font-family: 'Raleway', sans-serif;
     color: var(--neutral-100);
     font-size: 230%;
     margin-bottom: 3vh;
 }
 
-.homeText span{
+.homeText span {
     font-family: 'Arapey', serif;
     font-size: 150%;
+}
+
+@media (max-width: 768px) {
+    .homeText {
+        width: 80%;
+        margin: 5% 10%;
+    }
+
+    .homeText h1 {
+        font-size: 180%;
+    }
+
+    .homeText span {
+        font-size: 120%;
+    }
+}
+
+@media (max-width: 480px) {
+    .homeText {
+        width: 90%;
+        margin: 5% 5%;
+    }
+
+    .homeText h1 {
+        font-size: 150%;
+    }
+
+    .homeText span {
+        font-size: 100%;
+    }
 }
