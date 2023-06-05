@@ -24,3 +24,13 @@
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .formLogin .inputLogin {
+        width: 80%; /* Reduzir a largura do input em telas menores */
+    }
+}
+
+
+
+
+

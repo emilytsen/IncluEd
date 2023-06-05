@@ -1,8 +1,74 @@
 .profileContent{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: flex-start;
-    justify-content: space-evenly;
-    padding: 0% 7%;
-    height: 100vh;
+    height: fit-content;
+    gap: 30%;
+    margin-bottom: 40px;
+}
+
+.profileRestrictions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.profileRestrictions h2{
+    margin-bottom: 20px;
+}
+
+.restriction{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid var(--main-color);
+    gap: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.restrictionTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profileUserData{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+
+}
+
+
+@media (max-width: 768px) {
+    .profileContent{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .profileRestrictions{
+        align-items:center;
+    }
+
+    .profileRestrictions h2{
+        margin-top: 30px;
+    }
+
+    .profileUserData {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+
 }

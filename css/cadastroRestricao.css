@@ -72,9 +72,55 @@
     margin-top: 3px;
 }
 
+.atestado label{
+    color: var(--neutral-400);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    height: 100%;
+    justify-content: center;
+}
+
 .formCadastroRestricao a{
     margin-left: 55%;
     margin-top: 15px;
     
 }
 
+@media screen and (max-width: 768px) {
+    .formCadastroRestricao {
+        margin: 0 10%;
+    }
+
+    .atestado,
+    .formCadastroRestricao .dadosRestricao {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .dadosAluno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dadosAluno .inputForm{
+        width: 90%;
+    }
+
+    .atestado,
+    .formCadastroRestricao .dadosRestricao .inputRestricao {
+        width: 90%;
+        height: 50%;
+    }
+
+    .formCadastroRestricao a {
+        margin-left: 29px;
+        margin-top: 10px;
+    }
+
+
+}

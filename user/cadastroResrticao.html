@@ -17,6 +17,8 @@
         </div>
     </div>
 
+    
+
     <div class="formCadastroRestricao">
         <div class="dadosAluno">
             <select class="inputForm" id="serie" name="série" >
@@ -43,9 +45,10 @@
         <div class="dadosRestricao"> 
             <textarea class="inputRestricao" id="caixa-de-texto" rows="8" cols="50" placeholder="descrição da restrição"></textarea>
             <div class="atestado">
-                <input class="inputAtestado" type="file">
-                <img src="../img/upload-arquivo.svg" alt="">
-                <p>apload do atestado</p>
+                <label for="file">upload do atestado <img src="../img/upload-arquivo.svg" alt=""> </label>
+                <input class="inputAtestado" type="file" id="file">
+                
+                
             </div>
         </div>
         <a class="a a-main" href="./aluno.html">Cadastrar</a>

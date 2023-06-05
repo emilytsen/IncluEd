@@ -25,6 +25,7 @@
     .homeText {
         width: 80%;
         margin: 5% 10%;
+        height: 80vh;;
     }
 
     .homeText h1 {
@@ -34,16 +35,9 @@
     .homeText span {
         font-size: 120%;
     }
-}
-
-@media (max-width: 480px) {
-    .homeText {
-        width: 90%;
-        margin: 5% 5%;
-    }
 
     .homeText h1 {
-        font-size: 150%;
+            font-size: 90%;
     }
 
     .homeText span {

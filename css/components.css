@@ -136,11 +136,7 @@
 .active{
     padding: 0.5vh;
     border-bottom: 1px solid black;
-<<<<<<< HEAD
-    width: 45%;
-=======
     width: 60%;
->>>>>>> dd539c0cfb88dda926db0ecc5967acef820f11aa
     align-self: center;
     margin-left: 3px;
 }
@@ -172,4 +168,34 @@ footer a{
     margin-left: 45px;
     margin-top: 8       vh; 
 
+}
+
+
+@media screen and (max-width: 768px) {
+    .a,
+    .a-fifth,
+    .buttonVoltar,
+    .a-sixth,
+    .inputForm {
+        width: 80%; /* Define a largura para 100% em telas menores */
+        margin: 10px; /* Remove a margem à esquerda em telas menores */
+        margin-bottom: 2vh; /* Adiciona margem inferior em telas menores */
+        
+    }
+
+    .fontTitle{
+        font-size: 30px;
+    }
+
+    .navbar{
+    height: 10vh;
+    margin: 0 2vh;
+    width: 80vh;
+    gap: 18%;
+    }
+
+    .aNavbar{
+    width: 18vh;
+    margin-left: 150vh;
+    }
 }
