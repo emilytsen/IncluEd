@@ -110,7 +110,7 @@
     justify-content: space-between;
     align-items: center;
     width: 18vh;
-    margin-left: 120vh;
+    margin-left: 150vh;
 }
 
 .aNavbar a{
@@ -120,8 +120,9 @@
 .active{
     padding: 0.5vh;
     border-bottom: 1px solid black;
-    width: 50%;
+    width: 45%;
     align-self: center;
+    margin-left: 3px;
 }
 
 .inactive{
