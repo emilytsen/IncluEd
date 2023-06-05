@@ -5,7 +5,7 @@
     text-align: center;
     border-radius: 6px;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 3vh;
 }
 
@@ -42,18 +42,34 @@
     font-size: 17px;
     margin-bottom: 2vh; 
 }
-.bottonVoltar{
+.buttonVoltar{
     display: inline-block;
     line-height: 6vh;
     width: 21vh;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 10px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     background-color: var(--main-color);
     color: var(--white-color);
     margin-left: 140vh;
     margin-top: 30vh;   
+
+}
+.a-sixth{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    display: inline-block;
+    line-height: 9vh;
+    width: 155vh;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    margin-bottom: 2vh; 
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
 
 }
 
@@ -120,7 +136,11 @@
 .active{
     padding: 0.5vh;
     border-bottom: 1px solid black;
+<<<<<<< HEAD
     width: 45%;
+=======
+    width: 60%;
+>>>>>>> dd539c0cfb88dda926db0ecc5967acef820f11aa
     align-self: center;
     margin-left: 3px;
 }
@@ -128,7 +148,7 @@
 .inactive{
     padding: 0.5vh;
     border-bottom: 1px solid transparent;
-    width: 41%;
+    width: 60%;
     align-self: center;
 }
 
@@ -136,9 +156,11 @@ footer{
     width: 100%;
     height: 30vh;
     background-color: var(--second-color);
-    padding: 6vh 10vh;
+    padding: 6vh;
     display: flex;
     flex-direction: column;
+    line-height: 7vh
+
 
 }
 
@@ -146,3 +168,8 @@ footer a{
     color: var(--white-color);
 }
 
+.restricoesButtons{
+    margin-left: 45px;
+    margin-top: 8       vh; 
+
+}

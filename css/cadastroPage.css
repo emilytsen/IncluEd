@@ -1,3 +1,4 @@
+
 .formCadastro{
     display: flex;
     flex-direction: column;
@@ -11,3 +12,4 @@
     text-align: center;
 border-radius: 6px;
 }
+
